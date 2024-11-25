@@ -1,0 +1,18 @@
+# Ignore auxiliary and log files
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+
+# Ignore output files
+*.pdf
+*.dvi
+*.ps
+
+# Ignore editor-specific files
+*.swp
+*.bak
+*~

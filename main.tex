@@ -1,0 +1,164 @@
+\documentclass[a4paper,12pt,oneside]{article}
+\setlength{\columnsep}{10mm}
+
+%Packages%
+%Standard-Packages
+\usepackage[left=3cm, right=2cm, top=2.5cm, bottom=2cm, headheight=15pt]{geometry}
+\usepackage[main=english,german]{babel}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{color}
+\usepackage{fancyhdr}
+%
+\usepackage[utf8]{inputenc}
+\usepackage{booktabs}
+\usepackage{url}
+\usepackage{setspace}
+%
+\usepackage{longtable}
+\usepackage{blindtext}
+\usepackage{lmodern}
+\usepackage{caption}
+\usepackage{pdflscape}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{mathptmx}
+\usepackage[T1]{fontenc}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage[absolute]{textpos}
+\usepackage{bibgerm}
+\usepackage{enumitem}
+\usepackage{eurosym}
+    %\usepackage{filecontents}
+\usepackage{titlesec}
+\usepackage{float}
+\usepackage{subcaption}
+
+%\usepackage{subfigure}
+%\captionsetup[subfigure]{ font=normal, labelfont=bf, labelformat=brace, position=top}
+
+\usepackage{colortbl}
+\usepackage[justification=centering]{caption}
+\usepackage{pdfpages}
+\usepackage[hidelinks]{hyperref}
+\usepackage{multicol}
+\usepackage{wrapfig}
+
+%%Abkuerzungsverzeichnis
+\usepackage[]{acronym}
+%%Abkuerzungsverzeichnis
+
+%preamble
+
+%Seitenlayout
+\pagestyle{fancy}
+
+\lhead{\nouppercase\leftmark}
+\chead{} 
+\rhead[\leftmark]{\thepage}
+
+\lfoot{}
+\cfoot{}
+\rfoot{}
+
+\renewcommand{\headrulewidth}{0.4pt}
+\setlength{\parindent}{0pt}
+\setstretch{1.5}
+
+\pagestyle{empty}
+
+\begin{document}
+
+\begin{singlespace}
+    \input{0 Title/Titlepage}
+\end{singlespace}
+
+
+\pagenumbering{Roman}
+
+\input{0 Title/Eidesstaatliche erklärung.tex}
+
+
+
+\pagenumbering {Roman}
+\pagestyle{plain}
+\newpage
+\setcounter{page}{2} 
+\begin{singlespace}
+    \vspace{10mm}
+    \phantomsection\addcontentsline{toc}{section}{Abstract}
+    \LARGE{\textbf{Abstract}}
+    \vspace{4mm}
+    \par
+    \normalsize{\input{1 Introduction/Abstract.tex}}
+\end{singlespace}
+
+
+\newpage
+\pagenumbering {Roman}
+\pagestyle{plain}
+\newpage
+\setcounter{page}{3} 
+\begin{singlespace}
+    \vspace{10mm}
+    \phantomsection\addcontentsline{toc}{section}{Abbreviations}
+    \LARGE{\textbf{Abbreviations}}
+    \normalsize{\input{acronym}}
+\end{singlespace}
+
+\cleardoublepage
+
+\pagenumbering{gobble}
+\begin{singlespace}
+\renewcommand{\contentsname}{Table of contents}
+\tableofcontents
+\end{singlespace}
+\cleardoublepage
+\pagestyle{plain}
+
+% Begin Main Part
+\pagenumbering {arabic}
+\pagestyle{fancy}
+\renewcommand{\figurename}{Figure}
+\input{1 Introduction/Introduction}
+
+% End Main Part
+
+\newpage
+\pagestyle{plain}
+\pagenumbering {Roman}
+ 
+% List of Figures
+\begin{singlespace}
+    \newpage
+    \setcounter{page}{4}
+    \phantomsection
+    \addcontentsline{toc}{section}{List of Figures}
+    \renewcommand{\listfigurename}{List of Figures}
+    \listoffigures
+    \clearpage
+\end{singlespace}
+
+% List of Tables
+\begin{singlespace}
+    \phantomsection
+    \addcontentsline{toc}{section}{List of Tables}
+    \renewcommand{\listtablename}{List of Tables}
+    \listoftables
+    \clearpage
+\end{singlespace}
+
+
+% Bibliography
+\newpage
+\bibliographystyle{apalike}
+\phantomsection\addcontentsline{toc}{section}{Bibliography}
+\renewcommand{\refname}{Bibliography}
+\bibliography{References}
+\newpage
+
+% Appendix
+\input{Appendix/Appendix.tex} 
+\end{document}
