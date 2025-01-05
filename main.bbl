@@ -1,8 +1,28 @@
 \begin{thebibliography}{}
 
-\bibitem[Bartlett et~al., 2017]{bartlett2017Mapping}
-Bartlett, A., O'Malley, R.~C., Huang, S.-s.~C., Galli, M., Nery, J.~R., Gallavotti, A., and Ecker, J.~R. (2017).
-\newblock Mapping genome-wide transcription-factor binding sites using {{DAP-seq}}.
-\newblock {\em Nature Protocols}, 12(8):1659--1672.
+\bibitem[Berg et~al., 2016]{berg2016Plant}
+Berg, G., Rybakova, D., Grube, M., and K{\"o}berl, M. (2016).
+\newblock The plant microbiome explored: Implications for experimental botany.
+\newblock {\em Journal of Experimental Botany}, 67(4):995--1002.
+
+\bibitem[Hornschuh et~al., 2006]{hornschuh2006Mossassociated}
+Hornschuh, M., Grotha, R., and Kutschera, U. (2006).
+\newblock Moss-associated methylobacteria as phytosymbionts: An experimental study.
+\newblock {\em Die Naturwissenschaften}, 93(10):480--486.
+
+\bibitem[Jacquemyn et~al., 2015]{jacquemyn2015Mycorrhizal}
+Jacquemyn, H., Waud, M., Merckx, V. S. F.~T., Lievens, B., and Brys, R. (2015).
+\newblock Mycorrhizal diversity, seed germination and long-term changes in population size across nine populations of the terrestrial orchid {{Neottia}} ovata.
+\newblock {\em Molecular Ecology}, 24(13):3269--3280.
+
+\bibitem[Mahdi et~al., 2022]{mahdi2022Fungal}
+Mahdi, L.~K., Miyauchi, S., Uhlmann, C., {Garrido-Oter}, R., Langen, G., Wawra, S., Niu, Y., Guan, R., {Robertson-Albertyn}, S., Bulgarelli, D., Parker, J.~E., and Zuccaro, A. (2022).
+\newblock The fungal root endophyte {{Serendipita}} vermifera displays inter-kingdom synergistic beneficial effects with the microbiota in {{Arabidopsis}} thaliana and barley.
+\newblock {\em The ISME Journal}, 16(3):876--889.
+
+\bibitem[Spooren et~al., 2024]{spooren2024PlantDriven}
+Spooren, J., Van~Bentum, S., Thomashow, L.~S., Pieterse, C. M.~J., Weller, D.~M., and Berendsen, R.~L. (2024).
+\newblock Plant-{{Driven Assembly}} of {{Disease-Suppressive Soil Microbiomes}}.
+\newblock {\em Annual Review of Phytopathology}, 62(1):1--30.
 
 \end{thebibliography}
