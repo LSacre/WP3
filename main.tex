@@ -34,7 +34,7 @@
     %\usepackage{filecontents}
 \usepackage{titlesec}
 \usepackage{float}
-\usepackage{subcaption}
+%\usepackage{subcaption}
 
 %\usepackage{subfigure}
 %\captionsetup[subfigure]{ font=normal, labelfont=bf, labelformat=brace, position=top}
@@ -48,7 +48,9 @@
 \usepackage{tabularx}
 \usepackage{longtable} % For tables spanning multiple pages
 %%Abkuerzungsverzeichnis
+\usepackage{enumitem}
 \usepackage[]{acronym}
+\usepackage[titletoc]{appendix}
 %%Abkuerzungsverzeichnis
 
 %preamble
@@ -73,13 +75,13 @@
 \begin{document}
 
 \begin{singlespace}
-    \input{0 Title/Titlepage}
+    \input{Title/Titlepage}
 \end{singlespace}
 
 
 \pagenumbering{Roman}
 
-\input{0 Title/Eidesstaatliche erklärung.tex}
+\input{Title/Eidesstaatliche erklärung.tex}
 
 
 
@@ -93,7 +95,7 @@
     \LARGE{\textbf{Abstract}}
     \vspace{4mm}
     \par
-    \normalsize{\input{1 Introduction/Abstract.tex}}
+    \normalsize{\input{Introduction/Abstract.tex}}
 \end{singlespace}
 
 
@@ -123,7 +125,8 @@
 \pagenumbering {arabic}
 \pagestyle{fancy}
 \renewcommand{\figurename}{Figure}
-\input{1 Introduction/Introduction}
+\input{Introduction/Introduction}
+\input{Methods/Methods}
 
 % End Main Part
 
