@@ -79,24 +79,26 @@
 \end{singlespace}
 
 
-\pagenumbering{Roman}
-
+\newpage
+\pagenumbering {Roman}
+\pagestyle{plain}
+\setcounter{page}{2} 
 \input{Title/Eidesstaatliche erklärung.tex}
 
 
 
-\pagenumbering {Roman}
-\pagestyle{plain}
-\newpage
-\setcounter{page}{2} 
-\begin{singlespace}
-    \vspace{10mm}
-    \phantomsection\addcontentsline{toc}{section}{Abstract}
-    \LARGE{\textbf{Abstract}}
-    \vspace{4mm}
-    \par
-    \normalsize{\input{Introduction/Abstract.tex}}
-\end{singlespace}
+%\pagenumbering {Roman}
+%\pagestyle{plain}
+%\newpage
+%\setcounter{page}{2} 
+%\begin{singlespace}
+ %   \vspace{10mm}
+  %  \phantomsection\addcontentsline{toc}{section}{Abstract}
+   % \LARGE{\textbf{Abstract}}
+ %   \vspace{4mm}
+  %  \par
+  %  \normalsize{\input{Introduction/Abstract.tex}}
+%\end{singlespace}
 
 
 \newpage
@@ -127,18 +129,19 @@
 \renewcommand{\figurename}{Figure}
 \input{Introduction/Introduction}
 \input{Methods/Methods}
+\input{Results/Results}
 
 % End Main Part
 
 \newpage
 \pagestyle{plain}
 \pagenumbering {Roman}
- 
 % List of Figures
 \begin{singlespace}
     \newpage
-    \setcounter{page}{4}
+    \setcounter{page}{3}
     \phantomsection
+    \clearpage % Ensure no floating figures appear before this
     \addcontentsline{toc}{section}{List of Figures}
     \renewcommand{\listfigurename}{List of Figures}
     \listoffigures
@@ -148,6 +151,7 @@
 % List of Tables
 \begin{singlespace}
     \phantomsection
+     % Ensure no floating tables appear before this
     \addcontentsline{toc}{section}{List of Tables}
     \renewcommand{\listtablename}{List of Tables}
     \listoftables
