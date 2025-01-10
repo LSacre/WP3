@@ -1,0 +1,103 @@
+%% Creator: Inkscape 1.4 (e7c3feb1, 2024-10-09), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'root_weight_svg-tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{255bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.97941176)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{root_weight_svg-tex.pdf}}%
+    \put(0.11094118,0.41667647){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}50\end{tabular}}}}%
+    \put(0.11094118,0.53317647){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}100\end{tabular}}}}%
+    \put(0.11094118,0.64964705){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}150\end{tabular}}}}%
+    \put(0.11094118,0.76611766){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}200\end{tabular}}}}%
+    \put(0.11094118,0.88261765){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}250\end{tabular}}}}%
+    \put(0.15652942,0.38564705){\color[rgb]{0.30196078,0.30196078,0.30196078}\rotatebox{45}{\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}Mock\end{tabular}}}}}%
+    \put(0.1865,0.38564705){\color[rgb]{0.30196078,0.30196078,0.30196078}\rotatebox{45}{\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1847\end{tabular}}}}}%
+    \put(0.21647059,0.38564705){\color[rgb]{0.30196078,0.30196078,0.30196078}\rotatebox{45}{\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1338\end{tabular}}}}}%
+    \put(0.24644118,0.38564705){\color[rgb]{0.30196078,0.30196078,0.30196078}\rotatebox{45}{\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1334\end{tabular}}}}}%
+    \put(0.27644118,0.38564705){\color[rgb]{0.30196078,0.30196078,0.30196078}\rotatebox{45}{\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}939\end{tabular}}}}}%
+    \put(0.30641177,0.38564705){\color[rgb]{0.30196078,0.30196078,0.30196078}\rotatebox{45}{\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}709\end{tabular}}}}}%
+    \put(0.33638236,0.38564705){\color[rgb]{0.30196078,0.30196078,0.30196078}\rotatebox{45}{\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1234\end{tabular}}}}}%
+    \put(0.36635294,0.38564705){\color[rgb]{0.30196078,0.30196078,0.30196078}\rotatebox{45}{\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1703\end{tabular}}}}}%
+    \put(0.39632353,0.38564705){\color[rgb]{0.30196078,0.30196078,0.30196078}\rotatebox{45}{\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}3044\end{tabular}}}}}%
+    \put(0.42629412,0.38564705){\color[rgb]{0.30196078,0.30196078,0.30196078}\rotatebox{45}{\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1350\end{tabular}}}}}%
+    \put(0.45626471,0.38564705){\color[rgb]{0.30196078,0.30196078,0.30196078}\rotatebox{45}{\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}459\end{tabular}}}}}%
+    \put(0.4862353,0.38564705){\color[rgb]{0.30196078,0.30196078,0.30196078}\rotatebox{45}{\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1080\end{tabular}}}}}%
+    \put(0.51623529,0.38564705){\color[rgb]{0.30196078,0.30196078,0.30196078}\rotatebox{45}{\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}428\end{tabular}}}}}%
+    \put(0.54620588,0.38564705){\color[rgb]{0.30196078,0.30196078,0.30196078}\rotatebox{45}{\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1208\end{tabular}}}}}%
+    \put(0.57617648,0.38564705){\color[rgb]{0.30196078,0.30196078,0.30196078}\rotatebox{45}{\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1790\end{tabular}}}}}%
+    \put(0.60614707,0.38564706){\color[rgb]{0.30196078,0.30196078,0.30196078}\rotatebox{45}{\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1114\end{tabular}}}}}%
+    \put(0.63611764,0.38564705){\color[rgb]{0.30196078,0.30196078,0.30196078}\rotatebox{45}{\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}638\end{tabular}}}}}%
+    \put(0.66608823,0.38564705){\color[rgb]{0.30196078,0.30196078,0.30196078}\rotatebox{45}{\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1533\end{tabular}}}}}%
+    \put(0.69605882,0.38564705){\color[rgb]{0.30196078,0.30196078,0.30196078}\rotatebox{45}{\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1362\end{tabular}}}}}%
+    \put(0.72602942,0.38564705){\color[rgb]{0.30196078,0.30196078,0.30196078}\rotatebox{45}{\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1475\end{tabular}}}}}%
+    \put(0.75600001,0.38564706){\color[rgb]{0.30196078,0.30196078,0.30196078}\rotatebox{45}{\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}997\end{tabular}}}}}%
+    \put(0.78600001,0.38564706){\color[rgb]{0.30196078,0.30196078,0.30196078}\rotatebox{45}{\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1692\end{tabular}}}}}%
+    \put(0.81597058,0.38564705){\color[rgb]{0.30196078,0.30196078,0.30196078}\rotatebox{45}{\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}796\end{tabular}}}}}%
+    \put(0.84594117,0.38564705){\color[rgb]{0.30196078,0.30196078,0.30196078}\rotatebox{45}{\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}2751\end{tabular}}}}}%
+    \put(0.87591177,0.38564705){\color[rgb]{0.30196078,0.30196078,0.30196078}\rotatebox{45}{\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}978\end{tabular}}}}}%
+    \put(0.90588236,0.38564705){\color[rgb]{0.30196078,0.30196078,0.30196078}\rotatebox{45}{\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}2998\end{tabular}}}}}%
+    \put(0.93585295,0.38564706){\color[rgb]{0.30196078,0.30196078,0.30196078}\rotatebox{45}{\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1725\end{tabular}}}}}%
+    \put(0.96582352,0.38564705){\color[rgb]{0.30196078,0.30196078,0.30196078}\rotatebox{45}{\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1101\end{tabular}}}}}%
+    \put(0.54805881,0.30658825){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Bacterial Strain\end{tabular}}}}%
+    \put(0.0525,0.65544118){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Root Weight (mg)\end{tabular}}}}}%
+    \put(-0.01885294,0.18058822){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Class\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{root_weight_svg-tex.pdf}}%
+    \put(0.14508824,0.21641173){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Mock\end{tabular}}}}%
+    \put(0.14508824,0.14947061){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Alphaproteobacteria\end{tabular}}}}%
+    \put(0.45982352,0.21641173){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Actinobacteria\end{tabular}}}}%
+    \put(0.45982352,0.14947061){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Chitinophagia\end{tabular}}}}%
+    \put(0.70688234,0.21641173){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Gammaproteobacteria\end{tabular}}}}%
+    \put(0.70688234,0.14947061){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Betaproteobacteria\end{tabular}}}}%
+    \put(1.04744119,0.21641173){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Bacilli\end{tabular}}}}%
+    \put(0.12544118,0.92229412){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Comparison of Root Weight (mg) by Bacterial Strain\end{tabular}}}}%
+  \end{picture}%
+\endgroup%
