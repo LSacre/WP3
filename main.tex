@@ -20,6 +20,9 @@
 \usepackage{blindtext}
 \usepackage{lmodern}
 \usepackage{caption}
+    \DeclareCaptionLabelFormat{bold}{\textbf{#1~#2}} % Make "Figure" bold
+    \captionsetup{labelformat=bold, font=small} 
+
 \usepackage{pdflscape}
 \usepackage{textcomp}
 \usepackage{amssymb}
@@ -56,6 +59,9 @@
 
 \svgpath{{svg/}{/Users/lennartsacre/Uni/Thesis/Laborbericht/Figures/svg}}
 
+% \setlength{\belowcaptionskip}{-5pt} % Adjust space between figure and caption
+% \setlength{\abovecaptionskip}{-30pt}
+% \setlength{\textfloatsep}{5pt}   ]   % Adjust space between figure and surrounding text
 
 %preamble
 
