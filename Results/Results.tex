@@ -9,22 +9,18 @@ Both figures are sorted by the mean of the root weight to enable better comparis
 
 
 \begin{figure}[H]
-    \centering
-    \setlength{\abovecaptionskip}{-30pt} % Adjust only for this figure
     \makebox[\textwidth]{ % Keeps the figure centered within the text width
-    \includesvg[width=1.3\textwidth, keepaspectratio]{root_weight_boxplot}
+    \includesvg[width=1.1\textwidth, keepaspectratio]{root_weight_boxplot}
     }
     \caption{Distribution of root weight (in mg) for barley plants treated with different bacterial strains, sorted by the median root weight.}
     \label{fig:root_weight_boxplot}
 \end{figure}% Root Length Boxplot
 
-\begin{figure}[H]
+\begin{figure}[htbp]
     \centering
-    \setlength{\abovecaptionskip}{-30pt} % Adjust only for this figure
-    \makebox[\textwidth]{ % Keeps the figure centered within the text width
-    \includesvg[width=1.3\textwidth, keepaspectratio]{root_length_boxplot}
-    }
-    \caption{Distribution of root lengths (in cm) for barley plants treated with different bacterial strains, sorted by the median root weight}
+    \setlength{\abovecaptionskip}{-30pt} % Adjust only for th
+    \includesvg[pretex=\tiny, width=1.1\textwidth]{root_length_boxplot}
+    \caption{Distribution of root lengths (in cm) for barley plants treated with d ifferent bacterial strains, sorted by the median root weight}
     \label{fig:root_length_boxplot}
 \end{figure}
 
@@ -41,28 +37,43 @@ For example, strains 1114 and Y showed growth in only a few cases without produc
     \centering
     \setlength{\abovecaptionskip}{-30pt} % Adjust only for this figure
     \makebox[\textwidth]{ % Keeps the figure centered within the text width
-        \includesvg[width=1.3\textwidth, keepaspectratio]{halo_assay_heatmap}
+        \includesvg[width=1.2\textwidth, keepaspectratio]{halo_assay_heatmap}
     }
     \caption{Bacterial interaction heatmap visualizing the interactions between bacterial strains, with halo size and strength indicating antagonistic effects. Grey dots represent no observed halo while the absence of a dot indicated no bacterial growth.}
     \label{fig:heatmap}
 \end{figure}
 
-%\begin{figure}[H]
- %   \centering
-  %  \includegraphics[width=1.2\linewidth]{}
-   %%The retention factor measures the degree of inhibition caused by bacterial strains. 
-  %  See the text below for details on the calculation.
-  %  \label{fig:retention}
-%\end{figure}
-
+\begin{figure}[H]
+    \centering
+    \footnotesize
+    \setlength{\abovecaptionskip}{-30pt} % Adjust only for this figure
+    \makebox[\textwidth]{ % Keeps the figure centered within the text width
+        \includesvg[width=1.2\textwidth, keepaspectratio]{inhibition_barplot}
+    }
+    \caption{Total inhibition by bacterial strain. The bar plot shows the total instances of inhibition observed for each bacterial strain. Colors indicate the bacterial class. Strains are ordered by their total inhibition count.}
+    \label{fig:inhibition}
+\end{figure}
 \vspace{0.5cm} % Add space between the figure and the detailed explanation
+
+\begin{figure}[H]
+    \centering
+    \footnotesize
+    \setlength{\abovecaptionskip}{-30pt} % Adjust only for this figure
+    \makebox[\textwidth]{ % Keeps the figure centered within the text width
+        \includesvg[width=1.2\textwidth, keepaspectratio]{retention_factor_barplot}
+    }
+    \caption{Mean retention factor by bacterial strain. The retention factor is a relative value indicating how much the bacterial strain inhibited or retained the fungal pathogen. Colors represent the bacterial class. Strains are ordered by their mean retention factor.}
+    \label{fig:retention}
+\end{figure}
+\vspace{0.5cm} % Add space between the figure and the detailed explanation
+
 
 \noindent
 The retention factor is calculated using the formula:
 \[
 \text{Inhibition (\%)} = \frac{\text{Control Distance} - \text{Bacteria Distance}}{\text{Control Distance}} \times 100
 \]
-where the \textit{Control Distance} refers to the growth measurement in the absence of bacterial interference, and the \textit{Bacteria Distance} refers to the growth measurement in the presence of bacterial strains. Higher retention factor values indicate greater inhibition by the bacterial strain. The bar plot in \autoref{fig:retention} visualizes the retention factors for each bacterial strain, highlighting differences in inhibitory effects across strains.
+where the \textit{Control Distance} refers to the growth measurement in the absence of bacterial interference, and the \textit{Bacteria Distance} refers to the growth measurement in the presence of bacterial strains. Higher retention factor values indicate greater inhibition by the bacterial strain. The bar plots in \autoref{fig:inhibition} and \autoref{fig:retention} visualize the effect of the pathogens on fungal growth for each bacterial strain, highlighting differences in inhibitory effects across strains.
 
 
 Strain 1847 that was classified via the Type Strain Genome Server (TYGS), as can be seen in \autoref{tab:strains}, as \textit{Pseudomonas chlororaphis} conistently showed strong result across the three assay. This indicates a significant antagonistic avtivity towards other strains, effective inhibition of \ac{Bipo} growth and a notable influnce on root growth in the Jar Assay.

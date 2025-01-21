@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{648bp}%
+    \setlength{\unitlength}{720bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,9 +50,56 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.69999999)%
+  \begin{picture}(1,0.7)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{root_length_boxplot_svg-tex.pdf}}%
+    \put(0.40822224,0.63686111){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}*\end{tabular}}}}%
+    \put(0.04954166,0.15877779){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}7.5\end{tabular}}}}%
+    \put(0.04954166,0.25762499){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}10.0\end{tabular}}}}%
+    \put(0.04954166,0.35647223){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}12.5\end{tabular}}}}%
+    \put(0.04954166,0.45531945){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}15.0\end{tabular}}}}%
+    \put(0.04954166,0.55416667){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}17.5\end{tabular}}}}%
+    \put(0.04954166,0.65301389){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}20.0\end{tabular}}}}%
+    \put(0.0825,0.134375){\color[rgb]{0.30196078,0.30196078,0.30196078}\rotatebox{45}{\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}Mock\end{tabular}}}}}%
+    \put(0.11569444,0.13437499){\color[rgb]{0.30196078,0.30196078,0.30196078}\rotatebox{45}{\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1847\end{tabular}}}}}%
+    \put(0.14888889,0.134375){\color[rgb]{0.30196078,0.30196078,0.30196078}\rotatebox{45}{\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1338\end{tabular}}}}}%
+    \put(0.18208333,0.134375){\color[rgb]{0.30196078,0.30196078,0.30196078}\rotatebox{45}{\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1334\end{tabular}}}}}%
+    \put(0.21526389,0.134375){\color[rgb]{0.30196078,0.30196078,0.30196078}\rotatebox{45}{\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}939\end{tabular}}}}}%
+    \put(0.24845834,0.134375){\color[rgb]{0.30196078,0.30196078,0.30196078}\rotatebox{45}{\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}709\end{tabular}}}}}%
+    \put(0.28165278,0.134375){\color[rgb]{0.30196078,0.30196078,0.30196078}\rotatebox{45}{\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1234\end{tabular}}}}}%
+    \put(0.31484722,0.134375){\color[rgb]{0.30196078,0.30196078,0.30196078}\rotatebox{45}{\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1703\end{tabular}}}}}%
+    \put(0.34802778,0.134375){\color[rgb]{0.30196078,0.30196078,0.30196078}\rotatebox{45}{\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}3044\end{tabular}}}}}%
+    \put(0.38122222,0.134375){\color[rgb]{0.30196078,0.30196078,0.30196078}\rotatebox{45}{\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1350\end{tabular}}}}}%
+    \put(0.41441667,0.134375){\color[rgb]{0.30196078,0.30196078,0.30196078}\rotatebox{45}{\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}459\end{tabular}}}}}%
+    \put(0.44761111,0.134375){\color[rgb]{0.30196078,0.30196078,0.30196078}\rotatebox{45}{\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1080\end{tabular}}}}}%
+    \put(0.48080556,0.134375){\color[rgb]{0.30196078,0.30196078,0.30196078}\rotatebox{45}{\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}428\end{tabular}}}}}%
+    \put(0.51398612,0.134375){\color[rgb]{0.30196078,0.30196078,0.30196078}\rotatebox{45}{\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1208\end{tabular}}}}}%
+    \put(0.54718056,0.134375){\color[rgb]{0.30196078,0.30196078,0.30196078}\rotatebox{45}{\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1790\end{tabular}}}}}%
+    \put(0.580375,0.134375){\color[rgb]{0.30196078,0.30196078,0.30196078}\rotatebox{45}{\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1114\end{tabular}}}}}%
+    \put(0.61356944,0.134375){\color[rgb]{0.30196078,0.30196078,0.30196078}\rotatebox{45}{\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}638\end{tabular}}}}}%
+    \put(0.64675,0.134375){\color[rgb]{0.30196078,0.30196078,0.30196078}\rotatebox{45}{\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1533\end{tabular}}}}}%
+    \put(0.67994445,0.134375){\color[rgb]{0.30196078,0.30196078,0.30196078}\rotatebox{45}{\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1362\end{tabular}}}}}%
+    \put(0.71313889,0.134375){\color[rgb]{0.30196078,0.30196078,0.30196078}\rotatebox{45}{\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1475\end{tabular}}}}}%
+    \put(0.74633334,0.134375){\color[rgb]{0.30196078,0.30196078,0.30196078}\rotatebox{45}{\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}997\end{tabular}}}}}%
+    \put(0.77952778,0.134375){\color[rgb]{0.30196078,0.30196078,0.30196078}\rotatebox{45}{\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1692\end{tabular}}}}}%
+    \put(0.81270833,0.134375){\color[rgb]{0.30196078,0.30196078,0.30196078}\rotatebox{45}{\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}796\end{tabular}}}}}%
+    \put(0.84590278,0.134375){\color[rgb]{0.30196078,0.30196078,0.30196078}\rotatebox{45}{\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}2751\end{tabular}}}}}%
+    \put(0.87909723,0.134375){\color[rgb]{0.30196078,0.30196078,0.30196078}\rotatebox{45}{\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}978\end{tabular}}}}}%
+    \put(0.91229167,0.134375){\color[rgb]{0.30196078,0.30196078,0.30196078}\rotatebox{45}{\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}2998\end{tabular}}}}}%
+    \put(0.94547222,0.134375){\color[rgb]{0.30196078,0.30196078,0.30196078}\rotatebox{45}{\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1725\end{tabular}}}}}%
+    \put(0.97866667,0.134375){\color[rgb]{0.30196078,0.30196078,0.30196078}\rotatebox{45}{\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1101\end{tabular}}}}}%
+    \put(0.52438889,0.09704166){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Bacterial Strain\end{tabular}}}}%
+    \put(0.01856944,0.4075){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Root Length (cm)\end{tabular}}}}}%
+    \put(0.30297222,0.03754166){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Class\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{root_length_boxplot_svg-tex.pdf}}%
+    \put(0.3804028,0.05584721){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Actinobacteria\end{tabular}}}}%
+    \put(0.3804028,0.02423613){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Alphaproteobacteria\end{tabular}}}}%
+    \put(0.49418055,0.05584721){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Bacilli\end{tabular}}}}%
+    \put(0.49418055,0.02423613){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Betaproteobacteria\end{tabular}}}}%
+    \put(0.60379168,0.05584721){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Chitinophagia\end{tabular}}}}%
+    \put(0.60379168,0.02423613){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Gammaproteobacteria\end{tabular}}}}%
+    \put(0.72590281,0.05584721){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Mock\end{tabular}}}}%
+    \put(0.05638889,0.67925){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Comparison of Root Length (cm) by Bacterial Strain\end{tabular}}}}%
   \end{picture}%
 \endgroup%
